@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var katzDeliLine = [];
 
 takeAnumber (katzDeliLine, "Ada");
@@ -8,6 +9,11 @@ nowServing (katzDeliLine);
 
 currentLine (katzDeliLine);
 
+=======
+takeAnumber (katzDeliLine, "Ada");
+nowServing (katzDeliLine);
+
+>>>>>>> 5be1a7c9ad78d54e34a25a8ab852c18180ab8990
 function takeANumber (katzDeliLine, name){
 
  katzDeliLine.push(name);
@@ -17,6 +23,7 @@ function takeANumber (katzDeliLine, name){
 }
 
 function nowServing (katzDeliLine){
+<<<<<<< HEAD
 if (katzDeliLine.length === 0) {
 return ("There is nobody waiting to be served!");
 }
@@ -47,4 +54,11 @@ function currentLine (katzDeliLine){
     
     return ("The line is currently: " + deliline);
   }
+=======
+  
+  if (length.katzDeliLine === 0) 
+  return ()
+  return ("Currently serving " + katzDeliLine[0] + ".");
+  
+>>>>>>> 5be1a7c9ad78d54e34a25a8ab852c18180ab8990
 }
